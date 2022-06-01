@@ -81,7 +81,12 @@
 						"browserTarget": "star-wars:build"
 					}
 				},
-				"test": {}
+				"test": {
+					"builder": "@angular-builders/jest:run",
+					"options": {
+						"tsConfig": "./tsconfig.spec.json"
+					}
+				}
 			}
 		}
 	},
